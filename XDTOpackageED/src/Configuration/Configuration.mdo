@@ -48,4 +48,5 @@
   </languages>
   <xDTOPackages>XDTOPackage.EnterpriseData_1_25_1</xDTOPackages>
   <xDTOPackages>XDTOPackage.ExchangeMessage</xDTOPackages>
+  <catalogs>Catalog.Справочник1</catalogs>
 </mdclass:Configuration>

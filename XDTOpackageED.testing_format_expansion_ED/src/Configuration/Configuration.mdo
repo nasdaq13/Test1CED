@@ -31,7 +31,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.РасшED_ОсновнаяРоль</defaultRoles>
-  <version>1.0.01</version>
+  <version>1.0.0.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="3270cbd3-4496-40df-85b4-4021a671f32a" extendedConfigurationObject="d5dfafe6-5fd1-4417-ac95-78b742659fef">

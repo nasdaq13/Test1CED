@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="104d2dc5-b939-42df-9cb5-bddaf097a2e0">
+  <producedTypes>
+    <objectType typeId="a4d4bbb1-17d6-40a6-b7ec-bfd3ae616188" valueTypeId="8b630997-74ee-4da1-bbcc-a79e85975268"/>
+    <refType typeId="d807c4a3-0c61-4e13-90e9-eae1d6d34729" valueTypeId="78144024-d4ae-4be9-902e-f88e84b682ff"/>
+    <selectionType typeId="362a6976-ed7a-4120-b182-79d2c3073556" valueTypeId="7a52ffdd-ee7f-476e-b55b-7c88470618a3"/>
+    <listType typeId="f20f193a-fc39-4887-8a0f-18ffcdf99326" valueTypeId="9a063b03-5163-4068-9f34-a60a4f479431"/>
+    <managerType typeId="d45f2878-64fb-4664-9108-19e29d84f603" valueTypeId="97584cc3-ed4f-4a2e-8662-f94797838fcf"/>
+  </producedTypes>
+  <name>Справочник1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Справочник1.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Справочник1.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8abd2854-c7c5-4b4b-9eae-0582ffd7f3e3">
+    <name>РеквизитДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="575fb284-c4ab-44b7-ab29-95c00a19a84d">
+    <name>РеквизитНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="5d3ca9b1-0003-439b-aac9-d16761794f20">
+    <producedTypes>
+      <objectType typeId="1001b4fa-9738-403a-abf9-6a5f23f8d318" valueTypeId="97fe068b-ecdc-473a-83df-772bbdddc253"/>
+      <rowType typeId="c8268aa5-4356-406a-9e37-b2cb142fe180" valueTypeId="4d01bc4f-6435-4063-81f8-ce6b29b1e8a1"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть1</value>
+    </synonym>
+    <attributes uuid="9475fc12-4521-4355-9acb-b62bea18ad86">
+      <name>ИмяСвойства</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя свойства</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d5b7359e-b59a-4a97-aaf1-9a5d03b39aae">
+      <name>ЗначениеСвойства</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение свойства</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>12</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>
