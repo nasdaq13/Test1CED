@@ -43,4 +43,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <roles>Role.РасшED_ОсновнаяРоль</roles>
+  <xDTOPackages>XDTOPackage.ExchangeMessage</xDTOPackages>
 </mdclass:Configuration>
