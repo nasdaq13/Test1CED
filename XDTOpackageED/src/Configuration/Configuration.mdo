@@ -41,4 +41,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <xDTOPackages>XDTOPackage.EnterpriseData_1_25_1</xDTOPackages>
+  <xDTOPackages>XDTOPackage.ExchangeMessage</xDTOPackages>
 </mdclass:Configuration>
