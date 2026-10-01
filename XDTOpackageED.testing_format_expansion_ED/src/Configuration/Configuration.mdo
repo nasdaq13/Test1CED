@@ -45,4 +45,5 @@
   </languages>
   <roles>Role.РасшED_ОсновнаяРоль</roles>
   <xDTOPackages>XDTOPackage.ExchangeMessage</xDTOPackages>
+  <catalogs>Catalog.Справочник1</catalogs>
 </mdclass:Configuration>
